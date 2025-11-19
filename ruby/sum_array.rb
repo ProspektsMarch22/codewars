@@ -22,3 +22,12 @@ describe "Fixed tests" do
   dotest([-2.398], -2.398)
   dotest([0, -1, -2], -3)
 end
+
+=begin
+  It's necessary to have the ruby gem rspec in order to
+  have "describe" as a working method.
+
+  The expectation is within a tiny window. This is made so
+  working with floatt numbers is possible within a small
+  tolerance window.
+=end
